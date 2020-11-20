@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20201120 15:04:53.854" rpa="false">
+<suite id="s1" name="Googling" source="...\rpa-robotframework\googling.robot">
+<test id="s1-t1" name="Open google page and input keywords &quot;Hamberfim&quot;">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20201120 15:04:54.013" level="INFO">Opening browser 'Chrome' to base url 'http://www.google.com'.</msg>
+<status status="PASS" starttime="20201120 15:04:54.013" endtime="20201120 15:04:57.773"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>Hamberfim</arg>
+</arguments>
+<msg timestamp="20201120 15:04:57.774" level="INFO">Typing text 'Hamberfim' into text field 'name=q'.</msg>
+<status status="PASS" starttime="20201120 15:04:57.773" endtime="20201120 15:04:57.858"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201120 15:04:57.858" endtime="20201120 15:04:59.980"></status>
+</kw>
+<status status="PASS" starttime="20201120 15:04:54.012" endtime="20201120 15:04:59.982" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20201120 15:04:53.856" endtime="20201120 15:04:59.985"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Googling">Googling</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
