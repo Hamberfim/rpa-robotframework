@@ -1,4 +1,4 @@
-﻿appdirs==1.4.4
+appdirs==1.4.4
 beautifulsoup4==4.9.3
 brotlipy==0.7.0
 certifi==2022.12.7
@@ -10,7 +10,7 @@ lxml>=4.6.3
 pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
 pyOpenSSL==19.1.0
 PySocks @ file:///D:/bld/pysocks_1602327203253/work
-requests==2.25.0
+requests==2.31.0
 robotframework @ file:///home/conda/feedstock_root/build_artifacts/robotframework_1599133481898/work/dist
 robotframework-pythonlibcore @ file:///home/conda/feedstock_root/build_artifacts/robotframework-pythonlibcore_1595811294820/work
 robotframework-selenium2library==3.0.0
